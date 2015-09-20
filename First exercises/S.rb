@@ -3,7 +3,7 @@ puts "Привет, как тебя зовут?"
 name = gets.chomp
 puts "#{name},давай вычислим с тобой площадь прямоуголника S=?."
 puts "задай пожалуйста длину стороны a"
-a = gets.chomp.to_i
+a = gets.chomp.to_f
 puts "а теперь длину стороны b"
-b = gets.chomp.to_i
+b = gets.chomp.to_f
 puts "и так #{name}, площадь твоего прямоугольника равна S = #{a * b}"
